@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提交</title>
+    <style type="text/css">
+        .inputstyle{
+            width:100px;
+            height:36px;
+            line-height: 36px;
+            border:1px solid transparent;
+            color: rgba(0, 0, 0, 0.98);
+            background-color: #fff;
+            border-color: aqua;
+        }
+        </style>
+<link href="/assets/css/demo.css" rel="stylesheet"/>
+
+</head>
+<body class="lbody">
+
+<div>
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+     <div >
+        <h1 style="color :white" align="center" >植物疾病智能识别系统</h1>
+        <p style="color :white" class="lead"  align="center">只需通过上传植物的照片，便可以智能检测植物是否患病以及所患病证。</p>
+    </div>
+
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+<form action="/upload/" method="POST" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <div align="center">
+    <input type="file" name="testimg"  style="color :white"  >
+    </div>
+
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+
+    <div>
+        <p>
+                &nbsp;</p>
+    </div>
+
+
+    <div align="center" >
+    <input class="inputstyle" type="submit" value="提交"  >
+    </div>
+</form>
+</div>
+</body>
+
+</html>

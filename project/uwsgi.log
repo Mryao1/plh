@@ -1,0 +1,30 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 31 11:45:50 2019] ***
+compiled with version: 7.3.0 on 26 September 2019 13:54:13
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ecs-c494
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/deeplearningproject/project
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/blog/
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 31 11:45:56 2019] ***
+compiled with version: 7.3.0 on 26 September 2019 13:54:13
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ecs-c494
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/deeplearningproject/project
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/blog/
+chdir(): No such file or directory [core/uwsgi.c line 2623]
